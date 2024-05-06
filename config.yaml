@@ -1,0 +1,9 @@
+services:
+  age: 25
+  city: Bangalore
+  name: kiran
+  skils:
+  - python
+  - Rust
+  - R
+version: 1.0

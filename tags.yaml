@@ -1,0 +1,14 @@
+person:
+  name: John Doe
+  age : !!int "30"
+  is_student : !!bool false
+  city : !!str Banglore
+  hobbies: 
+    -!!str reading
+    -!!str "painting"
+    -!!str "cooking"
+  address:
+    street: 123 Main St
+    city: New York
+    state: NY
+    zip : !!int "10001"

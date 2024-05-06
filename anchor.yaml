@@ -1,0 +1,12 @@
+default : &DEFAULT 
+  name: 'kiran'
+  age : 23
+  skils : 
+  - 'java'
+  - 'python'
+  - 'ruby'
+  - 'php'
+
+user1 : 
+  << : *DEFAULT
+  name : 'bagee'

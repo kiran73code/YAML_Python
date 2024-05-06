@@ -1,0 +1,10 @@
+import yaml
+
+with open('config.yaml', 'r') as file:
+    data = yaml.safe_load(file)
+    print(data.keys())
+    
+
+with open('anchor.yaml', 'r') as file:
+    data = yaml.safe_load(file)
+    print(data)
